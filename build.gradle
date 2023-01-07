@@ -36,8 +36,16 @@ minecraft {
     mappings = "stable_12"
 }
 
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+
 dependencies {
-    compile files('lib/LookingGlass-1.7.10-0.2.0.01.jar', 'lib/Waila-1.5.10_1.7.10.jar')
+    //compile files('lib/LookingGlass-1.7.10-0.2.0.01.jar', 'lib/Waila-1.5.10_1.7.10.jar')
+    compile "curse.maven:lookingglass-230541:2321557"
+    compile "curse.maven:waila-73488:2230518"
 }
 
 task deobfJar(type: Jar) {
