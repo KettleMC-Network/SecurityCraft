@@ -1,6 +1,5 @@
-[![](http://cf.way2muchnoise.eu/full_securitycraft-mod_downloads.svg)](https://minecraft.curseforge.com/projects/securitycraft-mod) [![](http://cf.way2muchnoise.eu/versions/For%20MC_securitycraft-mod_all.svg)](https://minecraft.curseforge.com/projects/securitycraft-mod/files)
-
-SecurityCraft
-=============
+# SecurityCraft
 
 Source code for the Minecraft mod "SecurityCraft".
+
+This repository is mainly used for our fork which re-enables 1.7.10 support and fixes different issues when the mod is used on servers. This fork is used on [KettleMC.net](KettleMC.net).
